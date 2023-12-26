@@ -1,0 +1,12 @@
+#Files which i don't wanna commit onto git & which git should'nt be cared about.
+GitIgnoreTest.txt
+
+#if we wanna ignore all the file, which has their extension as .txt or .js.
+*.txt
+*.js
+
+#if we wanna ignore all the files, whose extension is .js & want git to care only one file whose extension is .js only.
+!Main.js
+
+#if we don't wanna commit a file & if we want git to ignore it, use below command on .gitignore file.
+Build/
